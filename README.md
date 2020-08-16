@@ -58,9 +58,9 @@ stock-knowledge-graph/
 | --- | --- | --- |
 | 股票代码 | <concept_of> | 概念md5 ID |
 | 股票代码 | <industry_of> | 行业md5 ID |
-| 概念md5 ID | Concept_ID | 概念 |
-| 行业md5 ID | Industry_ID | 行业 |
-| 人名 | Person_ID | md5(人名，性别，年龄）|
+| 概念md5 ID | <Concept_ID> | 概念 |
+| 行业md5 ID | <Industry_ID> | 行业 |
+| 人名 | <Person_ID> | md5(人名，性别，年龄）|
 | md5(人名，性别，年龄）| <employ_of> | 股票代码 |
 
 ## 任务1：从⽹页中抽取董事会的信息
